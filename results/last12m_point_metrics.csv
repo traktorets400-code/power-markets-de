@@ -1,0 +1,8 @@
+model,MAE,RMSE
+ens,13.484,23.7
+lear_ext_cwa,15.047,25.747
+dnn,13.467,24.404
+chronos2_cov,13.293,24.834
+lgbm_ext_cwa,13.16,23.804
+ens_v2,12.997,23.296
+boa_point,11.894,22.591

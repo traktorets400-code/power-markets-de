@@ -1,0 +1,13 @@
+[Unit]
+Description=power-de: forecast vintage snapshots (Berlin time; 10:30/11:45 = before DA gate closure, 13:00 = after DA results)
+
+[Timer]
+OnCalendar=*-*-* 07,16,19,22:00:00 Europe/Berlin
+OnCalendar=*-*-* 10:30 Europe/Berlin
+OnCalendar=*-*-* 11:45 Europe/Berlin
+OnCalendar=*-*-* 13:00 Europe/Berlin
+Persistent=false
+RandomizedDelaySec=60
+
+[Install]
+WantedBy=timers.target

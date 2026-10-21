@@ -1,0 +1,5 @@
+.entsoe_key
+.env
+data/
+__pycache__/
+*.parquet

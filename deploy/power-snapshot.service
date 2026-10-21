@@ -1,0 +1,12 @@
+[Unit]
+Description=power-de: snapshot ENTSO-E / Energy-Charts forecast vintages
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=power
+WorkingDirectory=/opt/power-de
+ExecStart=/usr/bin/python3 -W ignore /opt/power-de/snapshot.py
+TimeoutStartSec=600
+Nice=10

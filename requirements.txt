@@ -1,0 +1,6 @@
+entsoe-py==0.8.1
+pandas==3.0.5
+numpy==2.5.1
+pyarrow==25.0.0
+scipy==1.18.0
+holidays==0.106
